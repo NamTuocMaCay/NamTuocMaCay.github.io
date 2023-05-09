@@ -6,7 +6,7 @@ categories: [content, demo]
 
 This will be the website for taking notes after studying in the class Digital Tools for Studying Religion.  
 The class has been entertaining so far. I like participating in it weekly.
-Feel free to delete this post when you are ready to publish your first post.  
+I will change the contents of this post for the purpose of studying.  
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
 
