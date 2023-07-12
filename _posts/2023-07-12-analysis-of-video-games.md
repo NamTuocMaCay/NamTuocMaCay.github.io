@@ -1,6 +1,7 @@
 - - -
 
 ## layout: post
+
 title: An Analysis of Video Games and Religions
 categories: [content, demo]
 
@@ -12,4 +13,11 @@ Therefore, I start this project to see the connection between video games, their
 
 I have used what I learned in the session "Network Analysis" to construct a graph showing different connections between five elements (game titles, genres, devs, publishers, religious ideas).
 
-![Alt text](/NamTuocMaCay.github.io/assets/image/1130735.jpg)
+jpg
+![Alt text](docs/assets/1130735.jpg)
+
+png
+![Alt text](docs/assets/1130735.png)
+
+
+![1130735.jpg](.media/img_0.jpeg)
