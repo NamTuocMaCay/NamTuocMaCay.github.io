@@ -16,5 +16,3 @@ I have used what I learned in the session "Network Analysis" to construct a grap
 Example Image:
 
 ![Alt text](/assets/image/avatar.png)
-
-![Alt text](/docs/assets/1130735.jpg)
