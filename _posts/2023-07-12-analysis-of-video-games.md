@@ -21,4 +21,3 @@ At this first step, I put on five categories: game titles, genres, developers, p
 And then fill them all up.
 The result is in this picture.
 
-![Alt text](https://devilmaycry.fandom.com/wiki/Vergil "a title")
