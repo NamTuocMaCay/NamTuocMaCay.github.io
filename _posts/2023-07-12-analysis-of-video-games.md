@@ -11,5 +11,5 @@ Therefore, I start this project to see the connection between video games, their
 ## How the project works
 
 I have used what I learned in the session "Network Analysis" to construct a graph showing different connections between five elements (game titles, genres, devs, publishers, religious ideas).
-
+s
 ![Alt text](images/1130735.jpg)
