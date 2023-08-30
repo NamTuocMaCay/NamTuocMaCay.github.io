@@ -1,18 +1,13 @@
 ---
 layout: post
-title: Hello World
+title: First Lesson
 categories: [content, demo]
 ---
+The first lesson that I learned from the course is how to create a blog using Jekyll template on Github.
 
-This will be the website for taking notes after studying in the class Digital Tools for Studying Religion.  
-The class has been entertaining so far. I like participating in it weekly.
-I will change the contents of this post for the purpose of studying.  
+This is a very interesting lesson, since it helps us establish a certain vision for our study in this course.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
-
-## How a server works
-
-Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu.
+It is no exaggeration to say that this lesson is the foundation for the course, due to the fact that we will use it the most, since we have a task of creating five posts at the end of the semester.
 
 !
 <!--more--
