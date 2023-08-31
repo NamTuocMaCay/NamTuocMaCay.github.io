@@ -9,7 +9,44 @@ This is a very interesting lesson, since it helps us establish a certain vision 
 
 It is no exaggeration to say that this lesson is the foundation for the course, due to the fact that we will use it the most, since we have a task of creating five posts at the end of the semester.
 
-!
+# What is GitHub
+
+Github is 
+
+> a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code.
+
+# How to create a blog using Jekyll template
+
+At first you must have a github account. This one is very easy. Once we have the account, we will go to the template and start using the template. This one is also very fast and easy.
+
+# Difficulties
+
+When we need to learn to change the content of the template to our liking, I stumbled upon trouble. 
+
+Mine did not appear normally, as it did not show anything on screen.
+
+After asking the lecturer, I realized that I have made a mistake. 
+
+According to the guildline:
+
+![Alt text](/assets/image/posts/Screenshot 2023-08-31 210410.png)
+
+My repository has to have the same name as my github user name. But unfortunately, I did not. Therefore, it cannot recognize my blog and that is why my blog is error. 
+
+After fixing the above problem, I can finally use my blog. 
+
+But once more, I encountered another problem when trying to post something on the blog.
+
+I uploaded my post but nothing appeared on the blog. I did go to the `_posts` folder to add my post, but nothing happened. 
+
+Then I realized that when it asks me to change the file name, I should have renamed it with the same format `.md` at the end. 
+
+![Alt text](/assets/image/posts/Screenshot 2023-08-31 211312.png)
+
+I fixed the name and voila the post appeared on my blog.
+
+
+
 <!--more--
 
 Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
@@ -28,7 +65,7 @@ Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspe
 
 Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
-> This quote will *change* your life. It will reveal the <i>secrets</i> of the universe, and all the wonders of humanity. Don't <em>misuse</em> it.
+> https://moodle.rub.de/course/view.php?id=123#section4sftp
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.
 
