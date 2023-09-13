@@ -18,8 +18,6 @@ At this first step, I create a spreadsheet using Excel.
 
 I put on five different categories which are game titles, genres, developers, publishers, and religious ideas).
 
-
-
 ![Alt text](/assets/image/posts/ana_of_vid_1.png)
 
 Now I have 32 game titles. 
