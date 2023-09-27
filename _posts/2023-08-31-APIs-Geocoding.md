@@ -20,41 +20,51 @@ While a graphical interface for an email client might provide a user with a butt
 
 <details>
 <summary><b>Collapsable Structure No 2</b></summary>
+<blockquote>
+<h1>This is a header</h1>
+Test 123
 
-> # This is a header
-> Test 123
-> # Another Block Quote
->
-> If everything is marked as a block quote multiple lines can be achieved too this way!
+<h1>Another Block Quote</h1>
+If everything is marked as a block quote multiple lines can be achieved too this way!
+</blockquote>
 
-> Splitting them up is super simple too.
-> 
-> unordered list:
-> - Note A
-> - Note B
-> 
-> Ordered list:
-> 1. Ordered List 1
-> 1. Ordered List 1 (numbering in md is not important)
->
-> > ofc nesting theses are possible too!
-> > 
-> > second line
->  
-> a
-> > # This is a header
-> >
-> > 1. Item One
-> > 2. Item Two
->
-> ```python 
-> #!/usr/bin/python
-> # Code Block:
-> def code_block_py():
->    print('Hello World')
-> ```
+<blockquote>
+Splitting them up is super simple too.
+
+unordered list:
+<ul>
+  <li>Note A</li>
+  <li>Note B</li>
+</ul>
+
+Ordered list:
+<ol>
+  <li>Ordered List 1</li>
+  <li>Ordered List 2</li>
+</ol>
+<blockquote>
+
+ofc nesting theses are possible too!
+
+second line
+
+<h1>This is a header</h1>
+
+1. Item One
+2. Item Two
+</blockquote>
+</blockquote>
 </details>
 
+And a codeblock..
+
+```python 
+#!/usr/bin/python
+# Code Block:
+def code_block_py():
+   print('Hello World')
+```
+<br>
 
 # Nominatim
 
