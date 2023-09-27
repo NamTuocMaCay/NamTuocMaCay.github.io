@@ -22,9 +22,15 @@ I put on five different categories which are game titles, genres, developers, pu
 
 Now I have 32 game titles. 
 
+<mark>Updated:</mark>
+>I have added more game titles into the list, now I have 37 game titles on my spreadsheet.
+
 Then I saved the file as csv. format
 
 ### II. Use OpenRefine
 
 I loaded the file into OpenRefine.
+
+
+![Alt text](/assets/image/posts/the_list_in_openrefine.png)
 
