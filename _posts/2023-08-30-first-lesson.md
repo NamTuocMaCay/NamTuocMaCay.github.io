@@ -29,7 +29,7 @@ After asking the lecturer, I realized that I have made a mistake.
 
 According to the guildline:
 
-![Alt text](/assets/image/posts/Screenshot 2023-08-31 210410.png)
+![Alt text]({{ site.baseurl }}/assets/image/posts/Screenshot 2023-08-31 210410.png)
 
 My repository has to have the same name as my github user name. But unfortunately, I did not. Therefore, it cannot recognize my blog and that is why my blog is error. 
 
@@ -41,7 +41,7 @@ I uploaded my post but nothing appeared on the blog. I did go to the `_posts` fo
 
 Then I realized that when it asks me to change the file name, I should have renamed it with the same format `.md` at the end. 
 
-![Alt text](/assets/image/posts/Screenshot 2023-08-31 211312.png)
+![Alt text]({{ site.baseurl }}/assets/image/posts/Screenshot 2023-08-31 211312.png)
 
 I fixed the name and voila the post appeared on my blog.
 

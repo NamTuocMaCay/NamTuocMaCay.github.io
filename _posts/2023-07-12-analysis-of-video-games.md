@@ -18,7 +18,7 @@ At this first step, I create a spreadsheet using Excel.
 
 I put on five different categories which are game titles, genres, developers, publishers, and religious ideas).
 
-![Alt text](/assets/image/posts/ana_of_vid_1.png)
+![Alt text]({{ site.baseurl }}/assets/image/posts/ana_of_vid_1.png)
 
 Now I have 32 game titles. 
 
@@ -32,5 +32,5 @@ Then I saved the file as csv. format
 I loaded the file into OpenRefine.
 
 
-![Alt text](/assets/image/posts/the_list_in_openrefine.png)
+![Alt text]({{ site.baseurl }}/assets/image/posts/the_list_in_openrefine.png)
 
