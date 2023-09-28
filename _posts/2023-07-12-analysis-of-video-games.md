@@ -45,9 +45,9 @@ As you can see except the game titles column, the other columns have data which 
 
 When the new rows with empty entries are added, I go to `Edit Cells` once again and go to the option `Fill Down` to fill down the text downwards (so that there will be no empty cells anymore).
 
-Nevertheless, I need these data to be connected to each other, in order for later work in `Palladio`. Therefore, after the above task, I created column <mark>connections</mark>, <mark>target</mark>, and <mark>source</mark> for each original column (game-publisher-genre-developer-religious inspiration).  
+Nevertheless, I need these data to be connected to each other, in order for later work in `Palladio`. Therefore, after the above task, I created column <mark>connections</mark>, and then created <mark>target</mark>, and <mark>source</mark> (from connections column) for each original column (game-publisher-genre-developer-religious inspiration).  
 
-But by this point, I stumbled upon a big problem. In the original lesson, with the lecturer's guide and example, his data has different structure than mine. All of his data can be splitted and paired, but my data is not always splittable and pairable, some of them is unique. Therefore, if I use the original code snippet that the lecturer provided, it will not work (and indeed it did not work). Hence, I have to change some elements in his original codes.
+<u>But by this point, I stumbled upon a big problem. In the original lesson, with the lecturer's guide and example, his data has different structure than mine. All of his data can be splitted and paired, but my data is not always splittable and pairable, some of them is unique. Therefore, if I use the original code snippet that the lecturer provided, it will not work (and indeed it did not work). Hence, I have to change some elements in his original codes.</u>
 
 This is his original code snippet:
 ```
