@@ -41,11 +41,7 @@ I loaded the file into OpenRefine.
 
 ![Alt text]({{ site.baseurl }}/assets/image/posts/the_list_in_openrefine.png)
 
-As you can see except the game titles column, the other columns have data which are not unique/has multiple options. Therefore, I need to be sure that no multiple entries are in one cell. In order to do this task, I go to `Edit Cells` and split them up by the separator `,` with `Split multi-valued cells`.
-
-When the new rows with empty entries are added, I go to `Edit Cells` once again and go to the option `Fill Down` to fill down the text downwards (so that there will be no empty cells anymore).
-
-Nevertheless, I need these data to be connected to each other, in order for later work in `Palladio`. Therefore, after the above task, I created column <mark>connections</mark>, and then created <mark>target</mark>, and <mark>source</mark> (from connections column) for each original column (game-publisher-genre-developer-religious inspiration).  
+I need these data to be connected to each other, in order for later work in `Palladio`. Therefore, I created column <mark>connections</mark>, and then created <mark>target</mark>, and <mark>source</mark> (from connections column) for each original column (game-publisher-genre-developer-religious inspiration).  
 
 <u>But by this point, I stumbled upon a big problem. In the original lesson, with the lecturer's guide and example, his data has different structure than mine. All of his data can be splitted and paired, but my data is not always splittable and pairable, some of them is unique. Therefore, if I use the original code snippet that the lecturer provided, it will not work (and indeed it did not work). Hence, I have to change some elements in his original codes.</u>
 
@@ -59,7 +55,7 @@ pairs = ["&".join(pair) for pair in pairs]
 pairs = "|".join(pairs)
 return pairs
 ```
-And this is the new one:
+The above code snippet is for pairing (so each item in a category can be paired with each other). And this is the new one:
 ```
 import itertools
 eds = value.split(", ")
@@ -72,7 +68,13 @@ if len(eds) > 1:
 else:
   return eds[0]
 ```
-This is the code snippet for the new source columns:
+<mark>Note: my split value is `,` instead of `;`, at first I forgot about this and copied exactly what the lecturer presented and later realized that I do not have the same data structure as his.</mark>
+
+First thing first, I created a new column named `genre_connections` based on column `Genre` by filling 32 rows with the above new jython code. Next, I do the same for column `Publisher`, `Religious Inspiration` (since only these three caterogies have multiple options/have non-unique values). 
+
+Second step is to split multi-valued cells in column `genre_connections` that I just created. In order to do this task, I go to `Edit Cells` and split them up by the separator `,` with `Split multi-valued cells`. This step makes sure that no multiple entries are in one cell. 
+
+Thirdly, based on column `genre_connections`, I created two new column `genre_target` and `genre_source`, using this below code snippet:
 ```
 import itertools
 pairs= value.split("&")
@@ -84,15 +86,9 @@ else:
   element = pairs[0]
   return element 
 ```
-And this is the new code snippet for the new target columns:
-```
-import itertools
-pairs= value.split("&")
-if len(pairs) == 2:
-  source = pairs[0]
-  target = pairs[1]
-  return target
-else:
-  element = pairs[0]
-  return element
-```
+I did the same for the rest, creating these two new columns for each connections column. After this step, when the new rows with empty entries are added, I go to `Edit Cells` once again and go to the option `Fill Down` to fill down the text downwards (so that there will be no empty cells anymore). Of course, I also did the same for every column.
+
+At the end, the whole database looks like this.  
+![Alt text](<../assets/image/posts/Screenshot 2023-09-29 131458.png>)
+
+### III. Using Palladio
