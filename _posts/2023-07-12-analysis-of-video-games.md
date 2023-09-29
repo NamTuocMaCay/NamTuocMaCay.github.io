@@ -89,7 +89,8 @@ else:
 I did the same for the rest, creating these two new columns for each connections column. After this step, when the new rows with empty entries are added, I go to `Edit Cells` once again and go to the option `Fill Down` to fill down the text downwards (so that there will be no empty cells anymore). Of course, I also did the same for every column.
 
 At the end, the whole database looks like this.  
-![Alt text](<../assets/image/posts/Screenshot 2023-09-29 131458.png>)
+
+![Alt text]({{ site.baseurl }}/assets/image/posts/Screenshot 2023-09-29 131458.png)
 
 Final step in OpenRefine: I chose `Export` option on the top right of the program. Saved the file as comma-separated value.
 ### III. Using Palladio
@@ -98,15 +99,15 @@ I opened Palladio and loaded the saved csv file.
 
 This is the first result.
 
-![Alt text](<../assets/image/posts/Screenshot 2023-07-13 102622.png>)
+![Alt text]({{ site.baseurl }}/assets/image/posts/Screenshot 2023-07-13 102622.png)
 
 I changed the setting as below (using source column and target column):
 
-![Alt text](<../assets/image/posts/Screenshot 2023-09-29 155149.png>)
+![Alt text]({{ site.baseurl }}/assets/image/posts/Screenshot 2023-09-29 155149.png)
 
 And this is the result:
 
-![Alt text](<../assets/image/posts/Screenshot 2023-07-13 103057.png>)
+![Alt text]({{ site.baseurl }}/assets/image/posts/Screenshot 2023-07-13 103057.png)
 
 As you can see, there are a lot of connections between religious inspiration and the genres of the games. By using Palladio to visualize these connections, we can have a clear picture of relationships between games and religions. These data in turn can be used to deduce meaningful analysis. 
 
